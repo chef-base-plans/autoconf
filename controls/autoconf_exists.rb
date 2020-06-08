@@ -7,7 +7,8 @@ control 'core-plans-autoconf-exists' do
   impact 1.0
   title 'Ensure autoconf exists'
   desc '
-  '
+  Verify autoconf by ensuring /bin/autoconf exists'
+  
   plan_installation_directory = command("hab pkg path #{plan_origin}/#{plan_name}")
   describe plan_installation_directory do
     its('exit_status') { should eq 0 }
