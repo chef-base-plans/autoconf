@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.autoconf?branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=69&branchName=master)
+[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.autoconf?branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=95&branchName=master)
 
 # autoconf
 
@@ -43,6 +43,31 @@ will add the following binaries to the PATH:
 * /bin/ifnames
 * /bin/autom4te
 * /bin/autoreconf
+
+For example:
+
+```bash
+$ hab pkg install core/autoconf --binlink
+» Installing core/autoconf
+☁ Determining latest version of core/autoconf in the 'stable' channel
+→ Found newer installed version (core/autoconf/2.69/20200603125914) than remote version (core/autoconf/2.69/20200306000624)
+→ Using core/autoconf/2.69/20200603125914
+★ Install of core/autoconf/2.69/20200603125914 complete with 0 new packages installed.
+» Binlinking autoupdate from core/autoconf/2.69/20200603125914 into /bin
+★ Binlinked autoupdate from core/autoconf/2.69/20200603125914 to /bin/autoupdate
+» Binlinking autoheader from core/autoconf/2.69/20200603125914 into /bin
+★ Binlinked autoheader from core/autoconf/2.69/20200603125914 to /bin/autoheader
+» Binlinking autoscan from core/autoconf/2.69/20200603125914 into /bin
+★ Binlinked autoscan from core/autoconf/2.69/20200603125914 to /bin/autoscan
+» Binlinking autoconf from core/autoconf/2.69/20200603125914 into /bin
+★ Binlinked autoconf from core/autoconf/2.69/20200603125914 to /bin/autoconf
+» Binlinking ifnames from core/autoconf/2.69/20200603125914 into /bin
+★ Binlinked ifnames from core/autoconf/2.69/20200603125914 to /bin/ifnames
+» Binlinking autom4te from core/autoconf/2.69/20200603125914 into /bin
+★ Binlinked autom4te from core/autoconf/2.69/20200603125914 to /bin/autom4te
+» Binlinking autoreconf from core/autoconf/2.69/20200603125914 into /bin
+★ Binlinked autoreconf from core/autoconf/2.69/20200603125914 to /bin/autoreconf
+```
 
 #### Using an example binary
 
