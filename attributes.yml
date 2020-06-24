@@ -1,1 +1,2 @@
-command_relative_path: '/bin/autoconf'
+plan_name: 'autoconf'
+command_relative_path: 'bin/autoconf'
