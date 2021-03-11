@@ -9,7 +9,7 @@ automatically configure software source code packages.\
 pkg_upstream_url="https://www.gnu.org/software/autoconf/autoconf.html"
 pkg_license=('GPL-2.0-or-later')
 pkg_source="http://ftp.gnu.org/gnu/${pkg_name}/${pkg_name}-${pkg_version}.tar.xz"
-pkg_shasum="64ebcec9f8ac5b2487125a86a7760d2591ac9e1d3dbd59489633f9de62a57684"
+pkg_shasum="f14c83cfebcc9427f2c3cea7258bd90df972d92eb26752da4ddad81c87a0faa4"
 pkg_deps=(
   core/m4
   core/perl
