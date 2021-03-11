@@ -1,6 +1,6 @@
 pkg_name=autoconf
 pkg_origin=core
-pkg_version=2.69
+pkg_version=2.71
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="\
 Autoconf is an extensible package of M4 macros that produce shell scripts to \
